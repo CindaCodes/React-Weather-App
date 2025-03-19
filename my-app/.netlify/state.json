@@ -1,0 +1,21 @@
+{
+	"siteId": "bbbd983b-e36c-472a-9d79-638357f57d28",
+	"geolocation": {
+		"data": {
+			"city": "Fort Collins",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "CO",
+				"name": "Colorado"
+			},
+			"timezone": "America/Denver",
+			"latitude": 40.5447,
+			"longitude": -105.1069,
+			"postalCode": "80526"
+		},
+		"timestamp": 1742405925116
+	}
+}
