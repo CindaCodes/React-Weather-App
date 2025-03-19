@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #ff6473;
+  --secondary-color: #5cc1b3;
+  --tertiary-color: #6ef7c8;
+  --quaternary-color: #757882;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.weather-container {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  border: 3px solid var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-title {
+  color: var(--primary-color);
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.weather-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weather-input {
+  border-radius: 5px;
+  border: 1px solid var(--quaternary-color);
+  font-size: 16px;
+  padding: 10px;
+  width: 70%;
+}
+
+.weather-input:focus {
+  outline: 2px solid var(--primary-color);
+}
+.weather-button {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.weather-button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.weather-card {
+  background: var(--tertiary-color);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.weather-city {
+  color: var(--primary-color);
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+canvas {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  border: 3px solid var(--secondary-color);
+  height: 64px;
+  margin-right: 5px;
+  padding: 5px;
+  width: 64px;
+}
+.weather-description {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.temperature {
+  color: var(--primary-color);
+  font-size: 64px;
+  margin: 10px;
+}
+.weather-humidity,
+.weather-wind {
+  font-size: 14px;
+}
+
+.weather-toggle {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--tertiary-color);
+  cursor: pointer;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.weather-toggle:hover {
+  background-color: var(--quaternary-color);
+}
