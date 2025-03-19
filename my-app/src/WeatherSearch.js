@@ -34,9 +34,6 @@ export default function WeatherSearch() {
     const apiKey = process.env.REACT_APP_API_KEY;
     const baseUrl = process.env.REACT_APP_API_URL;
 
-    console.log("API Key:", apiKey); // Debugging
-    console.log("Base URL:", baseUrl); // Debugging
-
     if (!apiKey || !baseUrl) {
       console.error("API Key or API URL is missing! Check your .env file.");
       return;
@@ -110,6 +107,32 @@ export default function WeatherSearch() {
           </button>
         </div>
       )}
+      <footer>
+        This project was coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/jacinda-bietz-3158a0338/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jacinda Bietz
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/CindaCodes/React-Weather-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://cinda-codes-weather.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }
