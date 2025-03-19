@@ -120,3 +120,7 @@ canvas {
 .weather-toggle:hover {
   background-color: var(--quaternary-color);
 }
+
+footer {
+    margin-top: 15px;
+}
